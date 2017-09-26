@@ -1,0 +1,31 @@
+{
+  "name": "zachary-wright",
+  "version": "1.0.0",
+  "description": "Zachary Wright's personal website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp-concat": "^2.6.1",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachwright/zachary-wright-jekyll.git"
+  },
+  "author": "Zachary Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachwright/zachary-wright-jekyll/issues"
+  },
+  "homepage": "https://github.com/zachwright/zachary-wright-jekyll#readme"
+}
