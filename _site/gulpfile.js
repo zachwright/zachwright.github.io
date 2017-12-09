@@ -1,13 +1,15 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var uglify = require('gulp-uglify');
-var minify = require('gulp-minify-css');
-var watch = require('gulp-watch');
-var browserSync = require('browser-sync');
-var pump = require('pump');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const uglify = require('gulp-uglify');
+const minify = require('gulp-minify-css');
+const watch = require('gulp-watch');
+const browserSync = require('browser-sync');
+const pump = require('pump');
 const gulpUtil = require('gulp-util');
 const child = require('child_process');
 const concat = require('gulp-concat');
+const run = require('gulp-run');
+
 const siteRoot = '_site';
 
 gulp.task('default', ['jekyll', 'serve']);
@@ -43,11 +45,15 @@ gulp.task('sass', function() {
 });
 
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['build',
+  let shellcmd = 'bundle exec jekyll build --watch --incremental';
+  /*const jekyll = child.spawn('bundle', )child.spawn('jekyll', ['build',
     '--watch',
     '--incremental',
     '--drafts'
-  ]);
+  ]);*/
+
+  return gulp.src('/')
+    .pipe(run(shellcmd));
 
   const jekyllLogger = (buffer) => {
     buffer.toString()
