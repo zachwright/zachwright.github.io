@@ -238,8 +238,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("./bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("./bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("./bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("./bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("./bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("./bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 .glyphicon {
   position: relative;
@@ -5814,5 +5814,148 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-body {
-  background-color: white; }
+@font-face {
+  font-family: "DIN Alternate";
+  src: url("./fonts/DIN-Alternate-Bold.ttf"), format("truetype"); }
+
+@font-face {
+  font-family: "DIN Condensed";
+  src: url("./fonts/DIN-Condensed-Bold.ttf"), format("truetype"); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Futura";
+  font-weight: bold; }
+
+h1 {
+  font-size: 4.8rem; }
+
+h2 {
+  font-size: 4.0rem; }
+
+h3 {
+  font-size: 3.2rem; }
+
+h4 {
+  font-size: 2.8rem; }
+
+h5 {
+  font-size: 2.5rem; }
+
+h6 {
+  font-size: 2.0rem; }
+
+p, li {
+  font-family: "DIN Alternate", "Roboto";
+  font-size: 2.4rem;
+  font-weight: bold; }
+
+.red-text {
+  color: #BC2427; }
+
+.header {
+  font-family: "Futura";
+  filter: drop-shadow(0px 3px 11px rgba(0, 0, 0, 0.5)); }
+  .header .header-background {
+    background: linear-gradient(180deg, #500ce6, #821af6);
+    height: 400px;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 60%, 0 100%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 60%, 0 100%, 0 0); }
+    .header .header-background .navbar.navbar-default {
+      background: none;
+      border: none;
+      box-shadow: none;
+      color: #ffffff; }
+      .header .header-background .navbar.navbar-default .navbar-brand {
+        color: #ffffff;
+        font-size: 3.5rem;
+        line-height: 4.5rem; }
+      .header .header-background .navbar.navbar-default .navbar-nav li a {
+        color: #ffffff;
+        font-size: 2.0rem; }
+      .header .header-background .navbar.navbar-default .navbar-nav li.active a {
+        background: none; }
+
+.footer {
+  background: linear-gradient(125deg, #EE6639, #E60C66, #8F39EE);
+  color: #ffffff;
+  padding: 3rem 0; }
+  .footer .contact-info p {
+    font-size: 3.2rem; }
+
+.contact-form {
+  margin-top: 6rem; }
+  .contact-form input.form-control {
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #ffffff;
+    box-shadow: none;
+    font-family: "DIN Alternate";
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #ffffff; }
+    .contact-form input.form-control::placeholder {
+      color: #ffffff; }
+  .contact-form .btn-primary {
+    width: 90px; }
+
+.btn-primary {
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "DIN Alternate", "Roboto"; }
+
+html {
+  font-size: 10px; }
+
+.text-center {
+  text-align: center; }
+
+.headshot {
+  width: 300px; }
+
+.plain-list {
+  padding: 0; }
+  .plain-list li {
+    list-style-type: none; }
+
+@font-face {
+  font-family: "DIN Alternate";
+  src: url("./fonts/DIN-Alternate-Bold.ttf"), format("truetype"); }
+
+@font-face {
+  font-family: "DIN Condensed";
+  src: url("./fonts/DIN-Condensed-Bold.ttf"), format("truetype"); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Futura";
+  font-weight: bold; }
+
+h1 {
+  font-size: 4.8rem; }
+
+h2 {
+  font-size: 4.0rem; }
+
+h3 {
+  font-size: 3.2rem; }
+
+h4 {
+  font-size: 2.8rem; }
+
+h5 {
+  font-size: 2.5rem; }
+
+h6 {
+  font-size: 2.0rem; }
+
+p, li {
+  font-family: "DIN Alternate", "Roboto";
+  font-size: 2.4rem;
+  font-weight: bold; }
+
+.red-text {
+  color: #BC2427; }
+

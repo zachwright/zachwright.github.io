@@ -1,6 +1,33 @@
-$icon-font-path: "./bower_components/bootstrap-sass/assets/fonts/bootstrap/";
-@import "./bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
-body {
-  background-color: white;
+@import "./bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "./variables";
+@import "./typography";
+
+
+@import "./_components/header";
+@import "./_components/footer";
+@import "./_components/contact";
+@import "./_components/buttons";
+
+
+
+html {
+  font-size: 10px;
+}
+
+
+.text-center {
+  text-align: center;
+}
+.headshot {
+  width: 300px;
+}
+
+.plain-list {
+  padding: 0;
+
+  li {
+    list-style-type: none;
+
+  }
 }

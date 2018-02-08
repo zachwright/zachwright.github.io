@@ -1,0 +1,22 @@
+.contact-form {
+  margin-top: 6rem;
+  input.form-control {
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid $white;
+    box-shadow: none;
+    font-family: "DIN Alternate";
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: $white;
+
+    &::placeholder {
+      color: $white;
+    }
+  }
+  .btn-primary {
+    width: 90px;
+    
+  }
+}
