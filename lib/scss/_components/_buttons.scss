@@ -5,4 +5,8 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: $secondary-font;
+
+  &:hover {
+    background-color: #500ce6;
+  }
 }

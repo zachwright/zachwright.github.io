@@ -5852,6 +5852,9 @@ p, li {
 .red-text {
   color: #BC2427; }
 
+a:hover {
+  color: #500ce6; }
+
 .header {
   font-family: "Futura";
   filter: drop-shadow(0px 3px 11px rgba(0, 0, 0, 0.5)); }
@@ -5906,6 +5909,8 @@ p, li {
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: "DIN Alternate", "Roboto"; }
+  .btn-primary:hover {
+    background-color: #500ce6; }
 
 html {
   font-size: 10px; }
@@ -5958,4 +5963,7 @@ p, li {
 
 .red-text {
   color: #BC2427; }
+
+a:hover {
+  color: #500ce6; }
 
