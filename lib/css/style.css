@@ -5852,8 +5852,11 @@ p, li {
 .red-text {
   color: #BC2427; }
 
-a:hover {
+a {
   color: #500ce6; }
+
+a:hover {
+  color: #3706a0; }
 
 .header {
   font-family: "Futura";
@@ -5912,6 +5915,23 @@ a:hover {
   .btn-primary:hover {
     background-color: #500ce6; }
 
+#myTabContent .tab-pane img {
+  display: none; }
+
+#myTabContent .tab-pane.active .crop {
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  display: inline-block; }
+  #myTabContent .tab-pane.active .crop img {
+    width: 320px; }
+
+#myTabContent .tab-pane.active img {
+  display: inline-block; }
+
+#myTabContent .tab-pane.active img.map {
+  width: 100%; }
+
 html {
   font-size: 10px; }
 
@@ -5964,6 +5984,26 @@ p, li {
 .red-text {
   color: #BC2427; }
 
-a:hover {
+a {
   color: #500ce6; }
 
+a:hover {
+  color: #3706a0; }
+
+
+#myTabContent .tab-pane img {
+  display: none; }
+
+#myTabContent .tab-pane.active .crop {
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  display: inline-block; }
+  #myTabContent .tab-pane.active .crop img {
+    width: 320px; }
+
+#myTabContent .tab-pane.active img {
+  display: inline-block; }
+
+#myTabContent .tab-pane.active img.map {
+  width: 100%; }

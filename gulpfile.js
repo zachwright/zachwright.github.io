@@ -64,3 +64,7 @@ gulp.task('jekyll', () => {
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
 });
+
+gulp.task('production', () => {
+  
+})
