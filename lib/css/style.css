@@ -5946,6 +5946,9 @@ html {
   .plain-list li {
     list-style-type: none; }
 
+.top-margin {
+  margin-top: 45px; }
+
 @font-face {
   font-family: "DIN Alternate";
   src: url("./fonts/DIN-Alternate-Bold.ttf"), format("truetype"); }
