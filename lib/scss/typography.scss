@@ -43,6 +43,14 @@ p, li {
 .red-text {
   color: #BC2427;
 }
+.shift-text {
+  color: #f16936;
+
+  &:hover {
+    color: #03a4c7
+  }
+}
+
 a {
   color: #500ce6;
 }
