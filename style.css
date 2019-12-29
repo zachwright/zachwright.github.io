@@ -1,0 +1,185 @@
+
+* {
+  box-sizing: border-box;
+}
+/* 
+  yellow: #FFF4AC;
+  dark-blue: #2B3B54;
+  light-blue: #E8F4FF;
+  light-blue-hover: #a8b4bF;
+  light-orange: #F1B7A3;
+*/
+
+body {
+  background-color: #2B3B54;
+  color: #E8F4FF;
+  font-family: 'Fira Code';
+  margin: 0;
+  padding: 20px;
+}
+
+.content {
+  padding: 0 30%;
+  margin-top: 100px;
+}
+
+/* =================================== */
+/* Typography */ 
+/* =================================== */
+h1, h2 {
+  color: #FFF4AC;
+  text-shadow: 0px 0px 6px #FFF4AC;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 54px;
+  margin: 20px 0px;
+
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 36px;
+  margin: 20px 0;
+
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+a {
+  color: #E8F4FF;
+  text-shadow: 0px 0px 6px #E8F4FF;
+}
+a:hover {
+  color: #FFF4AC;
+  text-shadow: 0px 0px 6px #FFF4AC;
+}
+
+/* =================================== */
+/* Navigation */
+/* =================================== */
+.main-nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.main-nav ul {
+  text-align: right;
+  border-right: 2px solid #FFF4AC;
+  padding-right: 30px;
+  display: inline-block;
+}
+
+.main-nav ul li {
+  list-style-type: none;
+  margin: 12px 0px;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: #E8F4FF;
+  position: relative;
+  padding-bottom: 4px;
+  transition: all .2s;
+  text-shadow: none;
+}
+
+.main-nav ul li a:hover {
+  color: #FFF4AC;
+  text-shadow: 0px 0px 6px #FFF4AC;
+}
+
+.main-nav ul .nav-icon a svg,
+.main-nav ul .nav-icon a svg g {
+  transition: .2s all;
+}
+
+.main-nav ul .nav-icon a:hover svg {
+  filter: drop-shadow(0 0 3px #FFF4AC);
+}
+
+.main-nav ul .nav-icon a:hover svg g {
+  fill: #FFF4AC;
+  transition: all .2s;
+}
+
+.main-nav ul .nav-icon a:hover::after {
+  width: 0;
+}
+
+.logo {
+  display: inline-block;
+  height: 100%;
+}
+
+/* =================================== */
+/* Profile Photo */
+/* =================================== */
+.profile-photo {
+  margin-bottom: 30px;
+}
+
+/* =================================== */
+/* helpers */
+/* =================================== */
+.text-center {
+  text-align: center;
+}
+
+.crop {
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    border: 10px solid #E8F4FF;
+}
+.section-wrap {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+/* =================================== */
+/* Tech List */
+/* =================================== */
+.tech-list {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  
+}
+.tech-list li {
+  flex: 1 0 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+
+.tech-list li img {
+  margin-right: 10px;
+}
+
+/* =================================== */
+/* Sections */
+/* =================================== */
+.tagline {
+  margin: 80px 0px 50px 0px;
+}
