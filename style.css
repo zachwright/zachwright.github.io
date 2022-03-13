@@ -11,9 +11,9 @@
 */
 
 body {
-  background-color: #2B3B54;
-  color: #E8F4FF;
-  font-family: 'Fira Code';
+  background-color: #111111;
+  color: #eeeeee;
+  font-family: 'Fira Code', monospace;
   margin: 0;
   padding: 20px;
 }
@@ -60,6 +60,22 @@ a:hover {
   color: #FFF4AC;
   text-shadow: 0px 0px 6px #FFF4AC;
 }
+
+/* =================================== */
+/* New Stuff */
+/* =================================== */
+.page-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-content {
+  width: 70%;
+}
+.blurb {
+
+}
+
 
 /* =================================== */
 /* Navigation */
